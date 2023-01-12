@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+.field{
+   background-color: green;
+   background-size: cover;
+   
+    
+    
+}
+.player-size{
+    margin-top: 50px;
+    width: 500px;
+    transform: rotate(50deg);
+    transition: transform 3s ease-in;
+
+
+}
+.field :hover .player-size{
+    transform: rotate(-10deg);
+}
+.ball{
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    border-radius: 45px;
+    position: relative;
+    left: 350px;
+    bottom: 150px;
+    transition: transform 3s ease-in 1s;
+    
+    
+}
+.field:hover .ball{
+    transform: translate(850px ,-200px);
+    background-color: black;
+    
+}
+
+.gp{
+    position: relative;
+    left: 900px;
+    bottom: 550px;
+}
